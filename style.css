@@ -1,7 +1,6 @@
 .container{
 height: 100%;
 padding: 30px 20px;
-
 }
 
 .header{
@@ -38,7 +37,9 @@ letter-spacing: -0.87px;
 /* main-content start */
 .main-content{
 display: flex;
+justify-content: space-between;
+
 }
- .right-content{
-    
+ .left-content{
+    padding-top: 100px;
  }
