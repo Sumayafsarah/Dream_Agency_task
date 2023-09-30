@@ -1,11 +1,23 @@
+
+*{
+    box-sizing: border-box;
+    cursor: pointer;
+    
+}
+body{
+/* background: #331B3B; */
+}
 .container{
 height: 100%;
 padding: 30px 20px;
+/* overflow-x: hidden;  */
+/* background-color:rgb(258, 231, 204); */
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    
     }
 
 .header a{
@@ -18,28 +30,272 @@ padding: 30px 20px;
     text-decoration: none;
     padding: 20px;
 }
-/* left content start */
-.left-content{
-color: #331B3B;
-font-family: Hind Vadodara;
-font-size: 67px;
-font-style: normal;
-font-weight: 50;
-line-height: 99.8%;
-letter-spacing: -0.87px;
-}
 
-
+                          /* left content start */
 .home{
-    border-bottom: 8px solid rgb(251, 255, 0)
-
+    font-weight: 150;
 }
-/* main-content start */
+
+.home_underline{
+    display: flex;
+    height: 0.2rem;
+    margin-top: -1.5rem;
+    margin-left: 20px;
+}
+.facebook_icon{
+   display: flex;
+   margin-top: -10px;
+}
+.linkedin_icon{
+   display: flex;
+   margin-top: -13px;
+}
+.instagram_icon{
+   border:2px solid#331B3B;
+   border-radius: 60%;
+   width: 50px;
+   height: 50px;
+}
+.header_right{
+   display: flex;
+   flex-direction: row;
+   }
+                 /* content 1 start */
+                 /* main-content start */
 .main-content{
 display: flex;
 justify-content: space-between;
 
 }
+.bussiness_underline{
+   display: flex; 
+   margin-top: -75px;
+   position: relative;
+   z-index: -1;
+   margin-top: -4.8rem;
+   
+}
  .left-content{
-    padding-top: 100px;
+   color: #331B3B;
+font-family: a;
+font-size: 59px;
+font-style: normal;
+font-weight: 50;
+line-height: 99.8%;
+letter-spacing: -0.87px;
+padding-top: 200px;
  }
+ .right-content{
+    display: flex;
+    margin-right: -200px;
+  }
+ .details span{
+    font-size: 75px;
+ }
+
+
+ .lorem{
+    color: rgba(51, 27, 59, 0.66);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146.3%; /* 24.871px */
+    letter-spacing: 0.34px;
+ }
+ .btn{
+    background: #331B3B;
+    padding: 15px 0px;
+    color: #FFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 137.3%;
+    letter-spacing: 1.34px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 10px;
+    width: 160px;
+ }
+ /* content 1 close */
+ /* content 2 start */
+ .what_we img{
+   position: relative;
+   margin-left: 45rem;
+   top: -5.3rem;
+   z-index: -1;
+  
+}
+ .content_second{
+    display: flex;
+  background-image: url(image/Rectangle2.png);
+  margin-left: -20px;
+  height: 550px;
+  background-repeat:no-repeat;
+  position: relative;
+  z-index: 1; 
+}
+ .what_we span p{
+   display: flex;
+   font-style: normal;
+   line-height: 106.3%;
+   letter-spacing: -0.48px;
+   
+ }
+ .what_we span{
+   color: #331B3B;
+   font-size: 62px;
+   font-weight: 900;
+   margin-left: 3rem;
+   
+ }
+.what_we p{
+   color: #331B3B;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 62px;
+   font-weight:100;
+   margin-left:30rem;
+   
+}
+
+.two-arrow{
+   display: flex;
+margin-left: -73rem;
+margin-top: 28rem;
+}
+.arrow_2{
+  rotate: 180deg; 
+  margin-top: 0.39rem;
+}
+
+         /* website developer start*/
+ .part_one{
+   border-radius: 10px;
+   background: #FFF;
+   box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.05);
+   display: flex;
+   margin-left:-48rem;
+   margin-top: 16rem;
+   height:15rem ;
+   width: 20rem;
+    
+ }
+ .part_one img{ 
+   padding: 8px;
+   border-radius: 10px;
+   background: #FFDED4;
+   margin-left: 1.3rem;
+   margin-top: 2rem;
+
+}
+.part_one h2{
+   color: #331B3B;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 117.3%; 
+   letter-spacing: 0.88px;
+   text-transform: uppercase;
+   margin-top: 5.8rem;
+   margin-left: -3rem;
+   width: 200px;
+
+}
+.part_one p{
+   color: rgba(51, 27, 59, 0.66);
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 145.3%; /* 21.795px */
+   letter-spacing: 0.3px;
+   margin-top:8rem;
+   margin-left:-12.5rem;
+}
+
+.part_two img{
+   padding: 10px;
+   border-radius: 10px;
+   background: #FFEED4;
+   margin-left: 1.3rem;
+   margin-top: 2rem;
+}
+
+.part_two{
+   border-radius: 10px;
+   background: #FFF;
+   box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);display: flex;
+   margin-left:3rem;
+   margin-top: 16rem;
+   height:15rem ;
+   width: 20rem;
+ }
+
+ .part_two h2{
+   color: #331B3B;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 117.3%; 
+   letter-spacing: 0.88px;
+   text-transform: uppercase;
+   margin-top: 5.8rem;
+   margin-left: -3rem;
+   width: 200px;
+ }
+ .part_two p{
+   color: rgba(51, 27, 59, 0.66);
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 145.3%; /* 21.795px */
+   letter-spacing: 0.3px;
+   margin-top:8rem;
+   margin-left:-12.5rem;
+}
+.part_three img{
+   padding: 10px;
+   border-radius: 10px;
+   background: #FFEED4;
+   margin-left: 1.3rem;
+   margin-top: 2rem;
+}
+
+.part_three{
+   border-radius: 10px;
+   background: #FFF;
+   box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);display: flex;
+   margin-left:3rem;
+   margin-top: 16rem;
+   height:15rem ;
+   width: 20rem;
+ }
+
+ .part_three h2{
+   color: #331B3B;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 117.3%; 
+   letter-spacing: 0.88px;
+   text-transform: uppercase;
+   margin-top: 5.8rem;
+   margin-left: -3rem;
+   width: 200px;
+ }
+ .part_three p{ 
+   color: rgba(51, 27, 59, 0.66);
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 145.3%; /* 21.795px */
+   letter-spacing: 0.3px;
+   margin-top:8rem;
+   margin-left:-12.5rem;
+}
+
