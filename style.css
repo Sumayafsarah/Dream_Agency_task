@@ -399,7 +399,7 @@ margin-left: -5rem;
    font-size: 17px;
    font-style: normal;
    font-weight: 400;
-   line-height: 146.3%; /* 24.871px */
+   line-height: 146.3%; 
    letter-spacing: 0.34px;
    margin-left: 40rem;
    margin-top: -5rem;
@@ -493,7 +493,182 @@ width: 26rem;
 
       /* content 5 start */
 
+      .five_text_area h2{
+         color: #331B3B;
+         text-align: center;
+         font-family: sans-serif;
+         font-size: 48px;
+         font-style: normal;
+         font-weight: 200;
+         line-height: 110.8%;
+         letter-spacing: -0.48px;
+         margin-top: -140rem;
+      }
+      .five_text_area span{
+         color: #331B3B;
+         font-family: sans-serif;
+         font-size: 48px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: 110.8%;
+         letter-spacing: -0.48px;
+      }
+      .five_part_area{
+         display: flex;
+         justify-content: center;
+         justify-content: space-between;
+         padding: 9rem;
+         }
+      .five_text_area img{
+         width:128px;
+         height:12px;
+         display: flex;
+         margin-left: 51rem;
+         margin-top: -3.5rem;
+         position: relative;
+         z-index: -1;
+         
+      }
+      .five_part_one{
+         width: 448px;
+         height: 310px; 
+         background: #FFF;
+         box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.08);
+      }
+      .five_part_image3{
+         padding:  2rem;
+         margin-left: -1rem;
+      }
+      .five_part_one p{
+         padding: 0rem 0rem 1rem 2rem;
+      }
+      .five_part_image4{
+         display: flex;
+         padding: 0rem 0rem 1rem 2rem;
+         margin-top: -1.5rem;
+      }
+      .five_part_one h3{
+         display: flex;
+         margin-left: 20rem;
+         margin-top: -1rem;
+         color: #000;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 600;
+         line-height: 159.3%; 
+         letter-spacing: 0.32px;
+      }
+ 
+      .five_part_two{
+         width: 448px;
+         height: 310px; 
+         background: #FFF;
+         box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.08);
+      }
+      .five_part_image1{
+         padding:  2rem;
+         margin-left: -1rem;
+      }
+      .five_part_two p{
+         padding: 0rem 0rem 1rem 2rem;
+      }
+      .five_part_image2{
+         padding: 0rem 0rem 1rem 2rem;
+      }
+      .five_part_two h3{
+         display: flex;
+         margin-left: 20rem;
+         margin-top: -2rem;
+         color: #000;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 600;
+         line-height: 159.3%; 
+         letter-spacing: 0.32px;
+      }
+
+      /* footer_area start */
+footer{
+         display: flex;
+         background-image:url(image/Rectangle39.png) ;
+         background-repeat: no-repeat;
+         border-radius: 0px 158px 0px 0px;
+         width:84.9rem;
+         height: 453px;
+         margin-left: -2rem; 
+      }
+      .footer_text_area{
+         display: flex;
+         color: #ffffff;
+         font-family: sans-serif;
+         font-style: normal;
+      }
+      .footer_text_area span{
+         font-size: 36px;
+         font-weight: 700;
+         letter-spacing: 0.36px;
+      }
+      .footer_text_area h1{
+         font-weight: 100;
+         line-height: 159.3%; 
+         letter-spacing: 0.32px;
+         padding: 3rem;
+         font-size: 16px;
+      }
       
+      .footer_text_area p{
+         font-weight: 600;
+         line-height: 159.3%;
+         letter-spacing: 0.32px;
+         text-transform: uppercase;
+         margin-top: 15rem;
+         margin-left:-31rem;
+         font-size: 20px;
+      }
+      .footer_email_area input[type=email]{
+         display: flex;
+          width: 263px;
+          height: 52px; 
+          background-color: #000;
+          color: #FFF;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 159.3%;
+          letter-spacing: 0.32px;
+          text-transform: uppercase;
+          margin-top:18rem;
+          margin-left: -11rem;
+          
+      }
+      .footer_email_area {
+         display: flex;
+         padding:2rem ;
+      }
+      .footer_email_area button{
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            font-family: sans-serif;
+            padding: 25px 15px;
+            height: 3rem;
+            width: 10rem; 
+            cursor: pointer;
+            color: #000;
+            letter-spacing: 0.32px;
+            text-transform: uppercase;
+            border: 1px solid #FFF;
+            background: #FFF;
+            margin-top:18rem;
+            text-align: center;
+
+          }
+          
+ 
+      /* footer_area close */
 /*       media qurri  start*/
 
 /* Media Query for low resolution  Tablets, Ipads */
