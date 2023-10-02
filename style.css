@@ -666,7 +666,10 @@ footer{
             text-align: center;
 
           }
-          
+          .footer_map_area{
+            margin-left: 10rem;
+            padding: 4.4rem 0rem 0rem 5rem;
+          }
  
       /* footer_area close */
 /*       media qurri  start*/
