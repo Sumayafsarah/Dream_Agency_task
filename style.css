@@ -710,8 +710,10 @@ footer{
           }
           .footer_map_area{
             margin-left: 10rem;
-            padding: 4.4rem 0rem 0rem 5rem;
+            padding: 7rem 0rem 0rem 5rem;
+           
           }
+
  
       /* footer_area close */
 /*       media qurri  start*/
@@ -733,7 +735,7 @@ footer{
 }
 /* Mobile Screen */
 @media(max-width: 600px) { 
-body{background: rgb(253, 115, 115);
+body{overflow-x: hidden;;
 }
 
 .home_underline{
@@ -851,5 +853,58 @@ margin-left: 50rem;
 .content_five{
 display: block;
 margin-top: 40rem;
+}
+.four_part_one h1{
+   margin-left: 3rem;
+   margin-top:-4rem;
+}
+.four_part_one p{
+   margin-left: 19rem;
+   margin-top:-2.5rem;
+  
+}
+.four_part_two h1{
+   margin-left: 3rem;
+   margin-top:-4rem;
+}
+.four_part_two p{
+   margin-left: 19rem;
+   margin-top:-2.5rem;
+  
+}
+.four_part_three h1{
+   margin-left: 16rem;
+   margin-top:-4rem;
+}
+.five_text_area img{
+margin-left: 13.3rem;
+width: 8.5rem;
+}
+.five_part_area{
+   display: block;
+   margin-left: -5rem;
+}
+.five_part_two{
+   margin-top: 1rem;
+}
+footer{
+   display: block;
+   width: 35rem;
+}
+.footer_text_area h1 {
+   margin-top: -1.5rem;
+font-size: 10px;
+}
+.footer_text_area p{
+   margin-left: -22rem;
+   margin-top:9rem; 
+  }
+.footer_email_area{
+margin-top: -21rem;
+margin-left: 11.8rem;
+}
+.footer_map_area{
+   margin-left: -2.2rem;
+   margin-top: -8.3rem;
 }
 }
