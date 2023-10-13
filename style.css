@@ -10,7 +10,7 @@ height: 100%;
 margin: 0 auto;
 padding: 15px;
 cursor: pointer;
-border: 1px solid black;
+
 }
 .mobile_responsive{
    display:none;
@@ -86,7 +86,7 @@ border: 1px solid black;
    height: 100%;
    margin: 0 auto;
    padding: 0px 20px;
-   border: 1px solid rgb(77, 255, 22);
+  
    margin-top: -2rem;
    overflow: hidden;
 }
@@ -157,7 +157,7 @@ padding-top: 200px;
    position: relative;
    z-index: 1; 
    margin-top: 2rem;
-   border: 1px solid rgb(243, 1, 1);
+  
 }
  .what_we span p{
    font-style: normal;
@@ -333,7 +333,7 @@ margin-top: 25rem;
 .content_third{
    display: flex;
 justify-content: center;
-border: 1px solid black;
+
 }
 .content_third_left img{
    
@@ -399,7 +399,7 @@ border: 1px solid black;
 }
 /* content 4 start */
 .content_four{
-   border: 1px solid rgb(253, 12, 12);
+  
    display: flex;
   background-image: url(image/Rectangle13.png);
  margin-top: 10rem; 
@@ -533,17 +533,13 @@ width: 21rem;
       }
 
       /* content 5 start */
-.content_five{
-   border: 1px solid rgb(243, 98, 141);
-}
-      .five_text_area h2{
+ .five_text_area h2{
          color: #331B3B;
          text-align: center;
          font-family: sans-serif;
          font-size: 44px;
          font-style: normal;
          font-weight: 200;
-         line-height: 110.8%;
          letter-spacing: -0.48px;
          margin-top: -140rem;
       }
@@ -560,7 +556,10 @@ width: 21rem;
          display: flex;
          justify-content: center;
          justify-content: space-between;
-         padding: 9rem;
+         margin-left: 6rem;
+         margin-right: 6rem;
+         padding: 2rem;
+        
          }
       .five_text_area img{
          width:128px;
@@ -639,11 +638,8 @@ footer{
          background-image:url(image/Rectangle39.png) ;
          background-repeat: no-repeat;
          border-radius: 0px 158px 0px 0px;
-         /* width:84.9rem; */
-         /* height: 453px; */
          margin-left: -2rem;
-         border: 1px solid rgb(255, 1, 1); 
-      }
+}
       .footer_text_area{
          display: flex;
          color: #ffffff;
@@ -779,10 +775,26 @@ footer{
 margin-left:63rem;
 
 }
-.cfive_text_area{
-   display: flex;
-   border:1px solid#331B3B;
+.five_text_area h2{
+   display: block;
+   justify-content: center;
+   align-items: center;
+
 }
+.five_text_area{
+   margin-top: 143rem;
+   height: 10rem;
+ 
+}
+footer{
+   margin-left: -0.5rem;
+   width: 74rem;
+}
+ .footer_map_area{
+   margin-left: 10rem;
+   padding: 8rem 0rem 0rem 1rem;
+  
+ }
 
 }
 /* Laptop Screen */
